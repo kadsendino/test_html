@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Additionsprogramm</title>
+    <title>My Template</title>
+    <meta charset="UTF-8" />
   </head>
   <body>
-    <!-- Eingabefelder für die Zahlen -->
-    <label for="num1">Zahl 1:</label><br>
-    <input type="number" id="num1"><br>
-    <label for="num2">Zahl 2:</label><br>
-    <input type="number" id="num2"><br>
-    <br>
-    <!-- Button zum Ausführen der Addition -->
-    <button onclick="addNumbers()">Addieren</button>
-    <br><br>
-    <!-- Ausgabebereich für das Ergebnis -->
-    <p>Ergebnis: <span id="result"></span></p>
-    
-    <!-- Verlinkung des JavaScript-Skripts -->
-    <script src="addition.js"></script>
+    <canvas id="canvas"></canvas>
+    <script src="index.js"></script>
+    <script>
+      var engine = new Engine({"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":566704,"index.wasm":49282035},"focusCanvas":true,"gdextensionLibs":[]});
+      engine.startGame();
+    </script>
   </body>
 </html>
 
